@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="baseLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="customEditTextCardViewStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">25dp</item>
+        <item name="cardElevation">13dp</item>
+<!--
+        <item name="android:outlineAmbientShadowColor">#FF7BE495</item>
+-->
+        <item name="android:outlineSpotShadowColor">#FF7BE495</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+
+    <style name="customEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">17dp</item>
+    </style>
+
+    <style name="cardStyle" parent="CardView">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+<!--    <style name="buttonStyle" parent="android:Widget.TextView">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">50dp</item>-->
+<!--        <item name="android:padding">10dp</item>-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:background">@drawable/btn_bg</item>-->
+<!--        <item name="android:textColor">@color/colorWhite</item>-->
+<!--        <item name="android:textSize">17sp</item>-->
+<!--    </style>-->
+
+    <style name="dashboard_title_style" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="side_menu_text_style" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

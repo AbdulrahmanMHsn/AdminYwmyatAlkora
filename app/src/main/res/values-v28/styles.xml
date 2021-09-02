@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="customEditTextCardViewStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">25dp</item>
+        <item name="cardElevation">13dp</item>
+        <!--
+                <item name="android:outlineAmbientShadowColor">#FF7BE495</item>
+        -->
+        <item name="android:outlineSpotShadowColor">#FF7BE495</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+</resources>

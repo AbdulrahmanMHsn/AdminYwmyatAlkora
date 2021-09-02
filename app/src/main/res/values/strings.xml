@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">معلومات عنا</string>
+    <string name="registration">تسجيل جديد</string>
+    <string name="social">وسائل التواصل </string>
+    <string name="tournaments">البطولات</string>
+    <string name="latest_news">أخر الأخبار</string>
+    <string name="date">المواعيد</string>
+    <string name="image">image Desc</string>
+    <string name="name">الاسم</string>
+    <string name="phone">رقم التليفون</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="comment">تعليق</string>
+    <string name="submit">ارسال</string>
+    <string name="user">المستخدمين</string>
+    <string name="logOut">خروج</string>
+    <string name="dashBoard">لوحة التحكم</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">الرقم السرى</string>
+    <string name="signup">تسجيل</string>
+    <string name="save">حفظ</string>
+    <string name="url">Enter your URL</string>
+</resources>
